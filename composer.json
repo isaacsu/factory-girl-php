@@ -20,9 +20,9 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "doctrine/orm": "=2.2.1",
-        "doctrine/dbal": "=2.2.1",
-        "doctrine/common": "=2.2.1"
+        "doctrine/orm": ">=2.2.1, <2.4-dev",
+        "doctrine/dbal": ">=2.2.1, <2.4-dev",
+        "doctrine/common": ">=2.2.1, <2.4-dev"
     },
     "autoload": {
         "psr-0": {
@@ -31,5 +31,4 @@
             "Doctrine\\Tests": "vendor/doctrine/dbal/tests"
         }
     },
-    "target-dir": "factory-girl-php"
 }
