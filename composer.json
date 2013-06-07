@@ -30,5 +30,5 @@
             "FactoryGirl": "src",
             "Doctrine\\Tests": "vendor/doctrine/dbal/tests"
         }
-    },
+    }
 }
